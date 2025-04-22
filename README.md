@@ -1,50 +1,155 @@
-# Welcome to your Expo app 👋
+# ReState - Modern Real Estate Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A beautiful and modern real estate mobile application built with React Native and Expo. ReState helps users find their ideal home with an intuitive interface and powerful features.
 
-## Get started
+https://github.com/mariotoribi0/restate-app/assets/video/demo.mp4
 
-1. Install dependencies
+<details>
+<summary>Watch Demo Video</summary>
 
-   ```bash
-   npm install
-   ```
+https://user-images.githubusercontent.com/YOUR_USER_ID/restate-app/assets/demo.mp4
 
-2. Start the app
+</details>
 
-   ```bash
-    npx expo start
-   ```
+## Features
 
-In the output, you'll find options to open the app in a
+- 🏠 **Property Listings**
+  - Browse through featured and recommended properties
+  - View detailed property information
+  - High-quality image galleries with carousel
+  - Property specifications (beds, baths, area)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- 📍 **Location & Maps**
+  - Interactive property location maps
+  - Detailed address information
+  - Area highlights and points of interest
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- ⭐ **Reviews & Ratings**
+  - Property ratings and reviews
+  - User reviews with profile pictures
+  - Overall property rating system
 
-## Get a fresh project
+- 🔍 **Search & Filters**
+  - Advanced property search
+  - Filter by property type, price, and amenities
+  - Real-time search results
 
-When you're ready, run:
+- 👤 **User Features**
+  - Google authentication
+  - User profiles
+  - Saved properties
+  - Booking management
 
+## Tech Stack
+
+- **Frontend**
+  - React Native
+  - Expo Router
+  - NativeWind (Tailwind CSS for React Native)
+  - TypeScript
+
+- **Backend**
+  - Appwrite (Backend as a Service)
+  - Real-time data synchronization
+  - Secure authentication
+  - File storage for images
+
+- **UI/UX**
+  - Custom components
+  - Responsive design
+  - Modern and clean interface
+  - Rubik font family
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- Yarn or npm
+- Expo CLI
+- iOS Simulator or Android Emulator
+
+### Installation
+
+1. Clone the repository
 ```bash
-npm run reset-project
+git clone https://github.com/mariotoribi0/restate-app.git
+cd restate-app
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies
+```bash
+yarn install
+```
 
-## Learn more
+3. Set up environment variables
+```bash
+cp .env.example .env
+```
+Fill in your Appwrite credentials in the .env file.
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Start the development server
+```bash
+yarn start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+5. Run on your preferred platform
+```bash
+# For iOS
+yarn ios
 
-## Join the community
+# For Android
+yarn android
+```
 
-Join our community of developers creating universal apps.
+## Project Structure
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```
+my-app/
+├── app/                    # Main application code
+│   ├── (root)/            # Root navigation
+│   │   ├── (tabs)/        # Tab navigation screens
+│   │   └── properties/    # Property-related screens
+│   │   └── _layout.tsx    # Root layout configuration
+├── components/            # Reusable components
+├── constants/             # App constants and assets
+├── lib/                   # Utilities and helpers
+└── assets/               # Static assets
+```
+
+## Components
+
+- **Carrousel**: Image slider for property galleries
+- **Facilities**: Property amenities display
+- **Gallery**: Grid view of property images
+- **Reviews**: User reviews and ratings
+- **Search**: Property search functionality
+- **Cards**: Property card components
+
+## Styling
+
+The app uses NativeWind (Tailwind CSS) for styling with custom configuration:
+
+- Custom color palette
+- Responsive design
+- Custom font integration (Rubik)
+- Consistent spacing and layout
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Design inspiration from modern real estate applications
+- Expo team for the amazing framework
+- Appwrite team for the backend solution
+- React Native community for continuous support
