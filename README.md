@@ -2,14 +2,11 @@
 
 A beautiful and modern real estate mobile application built with React Native and Expo. ReState helps users find their ideal home with an intuitive interface and powerful features.
 
-https://github.com/mariotoribi0/restate-app/assets/video/demo.mp4
+https://github.com/mariotoribi0/restate-app/blob/main/.github/assets/demo.mp4?raw=true
 
-<details>
-<summary>Watch Demo Video</summary>
-
-https://user-images.githubusercontent.com/YOUR_USER_ID/restate-app/assets/demo.mp4
-
-</details>
+<div align="center">
+  <video src="https://github.com/mariotoribi0/restate-app/blob/main/.github/assets/demo.mp4?raw=true" width="400" />
+</div>
 
 ## Features
 
