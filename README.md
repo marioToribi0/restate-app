@@ -5,7 +5,7 @@ A beautiful and modern real estate mobile application built with React Native an
 https://github.com/mariotoribi0/restate-app/blob/main/.github/assets/demo.mp4?raw=true
 
 <div align="center">
-  <video src="https://github.com/mariotoribi0/restate-app/blob/main/.github/assets/demo.mp4?raw=true" width="400" />
+  <video src="https://github.com/marioToribi0/restate-app/raw/master/assets/demo.mp4" width="400" controls></video>
 </div>
 
 ## Features
